@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CV Syechan</title>
+    <meta charset="utf-8">
+    <style>
+    {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Helvetica, sans-serif;
+    }
+
+    header {
+      background-color: #241305;
+      padding: 5px;
+      text-align: center;
+      font-size: 25px;
+      color: white;
+    }
+
+    nav {
+      float: left;
+      width: 23%;
+      height: 1000px; 
+      background: #e3d0c1;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: circle;
+      padding: 30px;
+    }
+
+    nav li{
+      line-height: 50px;
+      font-family: sans-serif;
+      }
+
+    nav li a{
+      text-decoration : none;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 75%;
+      background-color: #fff;
+      height: 1000px;
+    }
+
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: 1000px;
+      }
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 60%;
+    }
+
+    td, th {
+      border: 1px solid #000;
+      text-align: left;
+      padding: 8px;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3>CV Ajeng Syechan Nadifa</h3>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <img src="ajengsyechann.png" alt="ajengsyechann" width="180px" height="250px">
+          <li><a href="https://www.instagram.com/cecannad_">Instagram : cecannad_</a></li>
+          <li><a href="https://www.facebook.com/syechan.nadifa.1">Facebook : nadifa syechan</a></li>
+          <li><a href="https://www.linkedin.com/in/ajeng-syechan-982015194">Linkedin : Ajeng Syechan Nadifa</a></li>
+          <li><a href="https://github.com/ajeng-sn">Github : Ajeng Syechan Nadifa</a></li>
+          <li>Gmail : 	ajen19050ti@student.nurulfikri.ac.id</li>
+          <li>Whatsapp : 089614279609</li>
+        </ul>
+      </nav>
+
+      <article>
+        <h1>Profile</h1>
+        <p>Hai, saya Ajeng Syechan Nadifa, bisa dipanggil Syechan. Saya adalah mahasiswi di Sekolat Tinggi Teknologi Nurul Fikri, dan saya mengambil jurusan Informatika. Berikut ini biodata saya.</p>
+        <table>
+          <tr>
+            <td>Nama</td>
+            <td>Ajeng Syechan Nadifa</td>
+          </tr>
+          <tr>
+            <td>Tempat, Tanggal Lahir</td>
+            <td>Jakarta, 15 September 2000</td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>Jl. Abdul Ghani, Cempaka Putih, Ciputat Timur, Tangerang Selatan - Banten</td>
+          </tr>
+          <tr>
+            <td>Pendidikan</td>
+            <td>STT Nurul Fikri - Informatika</td>
+          </tr>
+          <tr>
+            <td>Agama</td>
+            <td>Islam</td>
+          </tr>
+        </table>
+          <ul>
+            <h3>Pengalaman Bekerja</h3>
+            <li><h4>Administrasi</h4></li>
+            <p>PT Permata Sejahtera Buana, 2018</p>
+            <li><h4>Admin Sosial Media</h4></li>
+            <p>CV Indofesyen, 2018-2019</p>
+            <li><h4>Digital Customer Service</h4></li>
+            <p>PT Sinergi Rezeki Ananta, 2019-2020</p>
+          </ul>
+          <hr />
+          <ul>
+            <h3>Pendidikan</h3>
+            <li><h4>SDN 06 Petang, Cibubur</h4></li>
+            <p>2007-2012</p>
+            <li><h4>SMPN 147 Cibubur</h4></li>
+            <p>2012-2015</p>
+            <li><h4>SMK Fatahillah Cileungsi (Rekayasa Perangkat Lunak)</h4></li>
+            <p>2015-2018</p>
+            <li><h4>STT Nurul Fikri (Informatika)</h4></li>
+            <p>2019</p>
+          </ul>
+      </article>
+    </section>
+  </body>
+</html>
